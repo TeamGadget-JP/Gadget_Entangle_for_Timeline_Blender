@@ -20,7 +20,7 @@ GETLBはその時の作業内容により、どちらをマスターとして働
 ## 動作環境
 
 - Windows専用  
-  GECBはコード内でWindows APIを使用しています。
+  GETLBはコード内でWindows APIを使用しています。
 
 - 動作確認バージョン  
   - Cascadeur 2026.1.3  
@@ -30,10 +30,6 @@ GETLBはその時の作業内容により、どちらをマスターとして働
   - GPU: NVIDIA RTX 3060 12GB  
   - CPU: AMD Ryzen 7 8-Core  
   - RAM: 32GB
-
-- Cascadeurライセンスについて  
-  GECBの利用には、有効なCascadeur有償ライセンスが必要です。  
-  Cascadeur無料版では利用できません。
 
 ---
 
