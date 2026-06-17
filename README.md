@@ -1,7 +1,7 @@
 # 日本語 #
-# Gadget Entangle for Cascadeur / Blender (GECB)
+# Gadget Entangle for Timeline / Blender (GETLB)
 
-Gadget Entangle for Cascadeur / Blender（GECB）は、CascadeurとBlenderをリアルタイムで接続するための無料ツールです。
+GETLBはその時の作業内容により、どちらをマスターとして働かせるのかを決めるスイッチング方式を採用し、CascadeurのタイムラインとBlenderのタイムラインを同期するための無料ツールです。
 
 Cascadeurで作成・調整したキャラクターアニメーションを、Blender上でリアルタイムに確認することを目的としています。
 
