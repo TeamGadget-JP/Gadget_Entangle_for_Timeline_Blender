@@ -1,3 +1,101 @@
+# Gadget Entangle for Timeline / Blender (GETLB)
+
+GETLB features a master-switching system that allows you to decide which application acts as the master depending on your current task, with its main function being the synchronization of timelines between both sides.<br>
+Additionally, by controlling time, it implements an "Offline Bake" function that records real-time synchronized character motions directly onto the timeline on the fly, without relying on FBX files.<br>
+This is a free tool specifically designed for controlling and baking timelines.<br>
+
+---
+
+## Key Features of GETLB<br>
+
+1. Master-switching, bidirectional timeline synchronization.<br>
+2. One-click animation baking.<br>
+3. Customizable bake interval settings to prevent dropped frames.<br>
+4. Support for both full-range baking and partial-range baking.<br>
+
+---
+
+## Operating Environment
+
+- **Windows Only**
+  GETLB utilizes Windows APIs within its code, making it strictly Windows-exclusive.<br>
+- **Requires GECB** to be installed beforehand.<br>
+- Local Port: `8993` `Blender -> Cascadeur`<br>
+- Local Port: `8994` `Cascadeur -> Blender`<br>
+
+## Important Notes
+
+- Baked data will only function correctly on characters that have been **zero-calibrated**.<br>
+  There is no issue if you complete your workflow entirely within Blender using a zero-calibrated character in the scene.<br>
+  When exporting animated characters to game engines like UE/Unity or other DCC software, please use the traditional method of applying an FBX file.<br>
+
+---
+
+## Installation & Usage
+
+## Installation Procedure<br>
+1. Place `GETLB_Cascadeur_v1_0.py` into Cascadeur's Python plugin folder.<br>
+   `[Cascadeur Installation Path]\resources\scripts\python\commands\`<br>
+2. Install `GETLB_Blender_v1_0.py` as an add-on in Blender.<br> 
+
+## How to Use<br>
+step1: Launch Cascadeur and navigate to `Toolbar -> Commands -> GETLB TimeLine Sync(v1_0)`.<br>
+step2: Ensure that `[GETLB] Running! (Rev:8993/Send:8994)` is displayed at the bottom right of Cascadeur's scene view.<br>
+step3: Open the N-panel in Blender and verify that `Timeline Sync(GETLB)` is present under the `GECB TAB`.<br>
+step4: Click the `Enable Timeline Sync` button to complete the synchronization.<br>
+step5: When the **Blender** button is toggled ON, Blender's timeline becomes the master controller.<br>
+step6: When the **Cascadeur** button is toggled ON, Cascadeur's timeline becomes the master controller.<br>
+
+## Offline Baking<br>
+Set the Blender side as the master. Switch to `Pose Mode` and make sure the bones are visible.<br>
+Select all bones by pressing the `A key`. Set your desired frames in the `Start` and `End` fields.<br>
+For `Bake Delay(s)`, starting with the default value of `0.20` should be fine. If some frames are not captured properly, try increasing this value.<br>
+After that, simply click the `Bake from Cascadeur` button to start baking.<br>
+This concludes the explanation for baking operations.
+
+If you find GETLB useful, please subscribe to the channel and give it a thumbs-up!<br>
+Your ratings and warm support deeply motivate future development.<br>
+YouTube: [https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
+
+## Call for Feedback
+
+Would you like to help grow this tool together?
+Your feedback and opinions as a user will heavily influence future tool updates.<br>
+It is no exaggeration to say that this is the greatest strength of open-source software.<br>
+Let’s nurture it into a better tool that roots itself deeply into actual production environments.<br>
+
+---
+
+## About Support
+
+GETLB is provided completely free of charge on an "as-is" basis.<br>
+
+The developer is an individual FA (Factory Automation) engineer with a separate day job.<br> 
+Therefore, providing technical support tailored to individual environments is virtually impossible.<br>
+
+This tool is provided under the following conditions:<br>
+
+- Completely Free<br>
+- No Support<br>
+- No Warranty<br>
+- Use at your own risk<br>
+
+I will do my best to respond to bug and issue reports, but updates may be irregular.<br>
+Thank you for your understanding.<br>
+
+---
+
+## Disclaimer
+
+GETLB is an independent project by TeamGadget.<br>
+
+Cascadeur is a trademark or property of Nekki.<br> 
+Blender is a trademark or property of the Blender Foundation.<br>
+
+This project is not an official product of Nekki or the Blender Foundation, and is not endorsed, affiliated, sponsored, or officially supported by either organization.<br>
+
+---
+
 # 日本語 #
 # Gadget Entangle for Timeline / Blender (GETLB)
 
@@ -45,14 +143,17 @@ GETLBはその時の作業内容により、どちらをマスターとして働
 ## 使用方法<br>
 step1: Cascadeurを起動して`ツールバー -> Commands -> GETLB TimeLine Sync(v1_0)`を選択。<br>
 step2: Cascadeurのシーンビュー右下に`[GETLB] Running! (Rev:8993/Send:8994)`と表示されればOKです。<br>
-step3: <br>
-step4: <br>
-step5: <br>
-step6: <br>
-step7: <br>
-step8: <br>
-step9: <br>
-step10:<br>
+step3: Blender側でN-パネルを開き`GECB TAB`に`Timeline Sync(GETLB)`があることを確認して下さい。<br>
+step4: `Enable Timeline Sync`ボタンを押せば同期完了です。<br>
+step5: BlenderボタンがオンでBlender側タイムラインがマスターコントローラーになります。<br>
+step6: CascadeurボタンがオンでCascadeur側タイムラインがマスターコントローラーになります。<br>
+
+## オフラインベイク<br>
+Blender側をマスターにします。`Pose Mode`に切り替えて、更にボーンを表示して下さい。
+ボーンを全選択`Aキー`します。`Start`と`End`に任意のフレームを設定して下さい。
+`Bake Delay(s)`はまずはデフォルトの`0.20`で良いと思います。上手く拾えない場合は数値を上げて下さい。
+後は`Bake from Cascadeur`ボタンを押せばベイクを開始します。
+以上でベイク操作説明は終わりです。
 
 GETLBを使用されてもし良かったら、チャネル登録、高評価の方をお願いします。<br>
 皆様からの評価、温かい支援が今後の開発の励みになります。<br>
