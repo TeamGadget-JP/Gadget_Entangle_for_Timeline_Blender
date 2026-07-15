@@ -53,36 +53,6 @@ For `Bake Delay(s)`, starting with the default value of `0.20` should be fine. I
 After that, simply click the `Bake from Cascadeur` button to start baking.<br>
 This concludes the explanation for baking operations.
 
-If you find GETLB useful, please subscribe to the channel and give it a thumbs-up!<br>
-Your ratings and warm support deeply motivate future development.<br>
-YouTube: [https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
-
-## Call for Feedback
-
-Would you like to help grow this tool together?
-Your feedback and opinions as a user will heavily influence future tool updates.<br>
-It is no exaggeration to say that this is the greatest strength of open-source software.<br>
-Let’s nurture it into a better tool that roots itself deeply into actual production environments.<br>
-
----
-
-## About Support
-
-GETLB is provided completely free of charge on an "as-is" basis.<br>
-
-The developer is an individual FA (Factory Automation) engineer with a separate day job.<br> 
-Therefore, providing technical support tailored to individual environments is virtually impossible.<br>
-
-This tool is provided under the following conditions:<br>
-
-- Completely Free<br>
-- No Support<br>
-- No Warranty<br>
-- Use at your own risk<br>
-
-I will do my best to respond to bug and issue reports, but updates may be irregular.<br>
-Thank you for your understanding.<br>
-
 ---
 
 ## Disclaimer
@@ -154,36 +124,6 @@ Blender側をマスターにします。`Pose Mode`に切り替えて、更に�
 `Bake Delay(s)`はまずはデフォルトの`0.20`で良いと思います。上手く拾えない場合は数値を上げて下さい。
 後は`Bake from Cascadeur`ボタンを押せばベイクを開始します。
 以上でベイク操作説明は終わりです。
-
-GETLBを使用されてもし良かったら、チャネル登録、高評価の方をお願いします。<br>
-皆様からの評価、温かい支援が今後の開発の励みになります。<br>
-YouTube:[https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
-
-## フィードバックのお願い
-
-ツールを一緒に育ててみませんか？
-使用者様からの感想やご意見は、今後のツールアップデートに深く影響を与えます。<br>
-オープンソースソフトウェアの最大の強みはそこにあると言っても過言ではありません。<br>
-制作環境に根付くより良いツールに育てて行きましょう。<br>
-
----
-
-## サポートについて
-
-GETLBは完全無料・現状渡しで提供されます。<br>
-
-開発者は普段、別の本業を抱えるFA系個人エンジニアです。<br> 
-そのため、個別の環境に合わせた技術サポートを提供することは事実上不可能です。<br>
-
-本ツールは以下の条件で提供されます。<br>
-
-- 完全無料<br>
-- サポートなし<br>
-- 無保証<br>
-- 自己責任での利用がベースとなります<br>
-
-バグ不具合報告へはできる限り対応しますよう心掛けますが、不定期がちになってしまいます。<br>
-ご理解のほど、よろしくお願いします。<br>
 
 ---
 
